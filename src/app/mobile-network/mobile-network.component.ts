@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-mobile-network',
   templateUrl: './mobile-network.component.html',
@@ -7,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MobileNetworkComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+   }
 
   ngOnInit(): void {
   }
-
+ 
 }

@@ -1,29 +1,34 @@
-<p class="text-center"><i class="fa-solid fa-signal"></i> Mobile network signals</p>
+<p class="text-center"><i class="fas fa-tower-cell"></i> Mobile network signals</p>
 
 <!-- Good -->
-<div class="input-group mb-3">
-    <div class="input-group-prepend">
-        <div class="input-group-text">
-            <input type="radio" id="good" name="net">
+<div class="d-flex flex-nowrap justify-content-center align-items-center">
+    <div class="input-group d-flex justify-content-start">
+        <div class="input-group-prepend ">
+            <div class="input-group-text">
+                <input type="radio" id="good" name="net" checked>
+            </div>
         </div>
+        <label class="input-group-text bg-success text-white" for="good">Good</label>
     </div>
-    <label class="input-group-text" for="good">Good</label>
-</div>
 
-<!-- Bad -->
-<div class="input-group mb-3">
-    <div class="input-group-prepend">
-        <div class="input-group-text">
-            <input type="radio" id="bad" name="net">
+    <!-- Average -->
+    <div class="input-group d-flex justify-content-center">
+        <div class="input-group-prepend">
+            <div class="input-group-text">
+                <input type="radio" id="average" name="net">
+            </div>
         </div>
+        <label class="input-group-text bg-warning text-white" for="average">Average</label>
     </div>
-    <label class="input-group-text" for="bad">Bad</label>
-</div>
-<div class="input-group mb-3">
-    <div class="input-group-prepend">
-        <div class="input-group-text">
-            <input type="radio" id="average" name="net">
+
+    <!-- Bad -->
+    <div class="input-group d-flex justify-content-end">
+        <div class="input-group-prepend">
+            <div class="input-group-text">
+                <input type="radio" id="bad" name="net">
+            </div>
         </div>
+        <label class="input-group-text bg-danger text-white" for="bad">Bad</label>
     </div>
-    <label class="input-group-text" for="average">Average</label>
+
 </div>
