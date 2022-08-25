@@ -4,7 +4,7 @@ import { AgentformComponent } from './agentform/agentform.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  {path:"",redirectTo:"Login",pathMatch:"full"},
+  {path:"",redirectTo:"Agentform",pathMatch:"full"},
   {path:"Login",component:LoginComponent},
   {path:"Agentform",component:AgentformComponent}
 ]
